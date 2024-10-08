@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Londrina+Sketch&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #1f1f2a;
+}
+header .navbar .container ul li .nav-link {
+  color: white;
+}
+header .navbar .container ul li a {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.4s ease-in-out;
+}
+header .navbar .container ul li a:hover {
+  color: #dd2751;
+}
+header .navbar .container ul li a i {
+  color: #dd2751;
+  font-size: 10px;
+}
+
+/* Banner Start */
+.banner-section {
+  background-image: url("images/banner.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-section .container .row .main-content {
+  margin-top: 15%;
+}
+.banner-section .container .row .main-content h1 {
+  font-size: 110px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  color: white;
+  font-family: "Londrina Sketch", sans-serif;
+  line-height: 120px;
+}
+.banner-section .container .row .main-content h1 span {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0px;
+  font-weight: 800;
+}
+.banner-section .container .row .main-content p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(202, 202, 202);
+}
+.banner-section .container .row .main-content .btn-group a {
+  text-decoration: none;
+  background-color: #dd2751;
+  padding: 12px 60px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 40px;
+  transition: 0.4s ease-in-out;
+}
+.banner-section .container .row .main-content .btn-group a:hover {
+  background-color: white;
+  color: #1f1f2a;
+}
+.banner-section .container .row .arrow-icon {
+}
+.banner-section .container .row .arrow-icon i {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 18px;
+  width: 6%;
+}
+.banner-section .container .row .arrow-icon i:hover {
+  background-color: white;
+  color: #1f1f2a;
+}
+
+/* Services Start */
+.services-section {
+  background-color: rgb(234, 237, 239);
+}
+.services-section .container .row h5 {
+  font-size: 30px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 500;
+  color: #dd2751;
+}
+.services-section .container .row h2 {
+  font-size: 55px;
+  font-weight: 900;
+  color: #010101;
+}
+.services-section .container .row .single-column {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+.services-section .container .row .single-column::after {
+  content: "\2b";
+  position: absolute;
+  font-family: fontawesome;
+  top: 53px;
+  left: 44%;
+  font-size: 44px;
+  color: #ffff;
+  opacity: 1;
+}
+.services-section .container .row .single-column:hover::after {
+  transform: rotate("180deg");
+}
+.services-section .container .row .single-column .cap h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #010101;
+  transition: 0.4s ease-in;
+}
+.services-section .container .row .single-column .cap h3:hover {
+  color: #dd2751;
+}
+.services-section .container .row .single-column .cap {
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.services-section .container .row .single-column .cap p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(62, 62, 62);
+}
+.services-section .container .row .single-column .cap .btn-group a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #dd2751;
+  padding: 8px 32px;
+  border-radius: 50px;
+}
+.services-section .container .row .single-column .cap .btn-group a:hover {
+  background-color: #1f1f2a;
+}
+
+/* Middle Start */
+.middle-section .container .row h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #010101;
+}
+.middle-section .container .row h4 span {
+  color: #dd2751;
+}
+.middle-section .container .row .main-content {
+  position: relative;
+  margin-left: 60px;
+}
+.middle-section .container .row .main-content h4 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.middle-section .container .row .main-content h4::after {
+  content: "\f3c9";
+  position: absolute;
+  font-family: fontawesome;
+  left: -62px;
+  font-size: 50px;
+  color: #dd2751;
+}
+
+.middle-section .container .row .main-content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(30, 29, 29);
+}
+.middle-section .container .row .main-content h3 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.middle-section .container .row .main-content h3::after {
+  content: "\f7a6";
+  position: absolute;
+  font-family: fontawesome;
+  left: -62px;
+  font-size: 50px;
+  color: #dd2751;
+}
+.middle-section .container .row .main-content h2 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.middle-section .container .row .main-content h2::after {
+  content: "\f58f";
+  position: absolute;
+  font-family: fontawesome;
+  left: -62px;
+  font-size: 50px;
+  color: #dd2751;
+}
+
+.middle-section .container .row .middle-column {
+  background-image: url("images/middle\ part.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  object-fit: cover;
+  margin-top: -105px;
+}
+.middle-section .container .row .main-content h5 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.middle-section .container .row .main-content h5::before {
+  content: "\f86d";
+  position: absolute;
+  font-family: fontawesome;
+  left: -62px;
+  font-size: 50px;
+  color: #dd2751;
+}
+
+.middle-section .container .row .main-content h6 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.middle-section .container .row .main-content h6::before {
+  content: "\f56f";
+  position: absolute;
+  font-family: fontawesome;
+  left: -62px;
+  font-size: 50px;
+  color: #dd2751;
+}
+.middle-section .container .row a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  background-color: #dd2751;
+  padding: 18px 75px;
+  border-radius: 50px;
+}
+.middle-section .container .row a:hover {
+  background-color: #010101;
+}
+
+/* Working Room Start */
+.working-section {
+  background-image: url("images/work\ bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 882px;
+}
+.working-section .container .row h5 {
+  font-size: 35px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 500;
+  color: #dd2751;
+}
+.working-section .container .row h2 {
+  font-size: 55px;
+  font-weight: 900;
+  color: white;
+}
+.working-section .container .row p {
+  color: #b1b1b4;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.working-section .container .row .main-item {
+  background-color: #dd2751;
+  padding: 35px 52px;
+  position: absolute;
+}
+.working-section .container .row .main-item ul {
+  list-style-type: none;
+}
+.working-section .container .row .main-item ul li a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.working-section .container .row .main-item ul li a:hover {
+  color: #000000;
+}
+
+.working-section .container .row .room {
+  background-color: white;
+  padding: 50.5px 71px;
+  margin-left: -24px;
+}
+.working-section .container .row .room h2 {
+  color: #000000;
+  font-weight: 900;
+  font-size: 37px;
+}
+.working-section .container .row .room p {
+  color: #383838;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.working-section .container .row .room h4 {
+  color: #000000;
+  font-weight: 900;
+  font-size: 20px;
+}
+.working-section .container .row .room h4 span {
+  color: #dd2751;
+}
+.working-section .container .row .room .btn-group a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #dd2751;
+  padding: 16px 65px;
+  border-radius: 50px;
+}
+.working-section .container .row .room .btn-group a:hover {
+  background-color: #010101;
+}
+
+/* Gallery Start */
+/* .gallery-section{
+  background-color: #282834;
+} */
+.gallery-section .container .row h5 {
+  font-size: 35px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 500;
+  color: #dd2751;
+}
+.gallery-section .container .row h2 {
+  font-size: 55px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+.gallery-section .container .row .col-4{
+  padding: 0;
+}
+.gallery-section .container .img{
+  overflow: hidden;
+  
+}
+.gallery-section .container .img img{
+  transition: .4s ease-in-out;
+}
+.gallery-section .container .img:hover img{
+  transform: scale(1.3);
+}
+
+
+
+/* Brand Start */
+
+.brand-section{
+  background-color: #dd2751;
+}
+
+
+
+
+
+/* Footer Start  */
+
+.footer {
+  background-color: #3e3e3e;
+  padding: 40px 0;
+  color: #b8b8b8;
+}
+.footer h5 {
+  color: white;
+}
+.footer a {
+  color: #b8b8b8;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: white;
+}
+.footer .social-icons i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #ff8800;
+}
+.subscribe input {
+  background-color: white;
+  color: black;
+  width: 23%;
+}
+.subscribe button {
+  background-color: #dd2751;
+  color: white;
+}
+.footer-bottom {
+  background-color: #dd2751;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.col-md-6.subscribe {
+  margin-top: -245px;
+  margin-left: 1217px;
+}
